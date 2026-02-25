@@ -1,0 +1,10 @@
+# Arquivos de build .NET
+bin/
+obj/
+
+# macOS
+.DS_Store
+
+# Arquivos temporários
+*.user
+*.log
