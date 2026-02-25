@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - AgroInspect</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="login-body">
+
+    <div class="login-overlay"></div>
+
+    <div class="login-container">
+        <div class="login-card">
+            <h1>🌱 AgroInspect</h1>
+            <p>Sistema de Inspeção Agrícola</p>
+
+            <form id="loginForm">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="senha" placeholder="Senha" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+    
+<script src="js/include.js"></script>
+
+<script>
+document.getElementById("loginForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    fazerLogin();
+});
+</script>
+
+</body>
+</html>

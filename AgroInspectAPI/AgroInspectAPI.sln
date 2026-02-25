@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgroInspectAPI", "AgroInspectAPI.csproj", "{BF8C3A94-C84C-7DA0-A2C6-DF4CE6197827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF8C3A94-C84C-7DA0-A2C6-DF4CE6197827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8C3A94-C84C-7DA0-A2C6-DF4CE6197827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8C3A94-C84C-7DA0-A2C6-DF4CE6197827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8C3A94-C84C-7DA0-A2C6-DF4CE6197827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DB12D46-64CF-48EF-9328-1E558EEB6619}
+	EndGlobalSection
+EndGlobal

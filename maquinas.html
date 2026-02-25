@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Máquinas - AgroInspect</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <main>
+        <h1>Relatório de Máquinas</h1>
+
+        <div class="filtro-container">
+            <input type="text" id="filtroTipo" placeholder="Filtrar por Tipo">
+            <input type="text" id="filtroModelo" placeholder="Filtrar por Modelo">
+
+            <select id="filtroStatus">
+                <option value="">Todos</option>
+                <option value="true">Ativo</option>
+                <option value="false">Inativo</option>
+            </select>
+
+            <button onclick="filtrarMaquinas()">Filtrar</button>
+            <div class="sair">
+                 <button onclick="sair()"> Sair</button>
+            </div>
+
+        
+        </div>
+
+        
+
+        <table class="tabela-maquinas">
+            <thead>
+                <tr>
+                    <th>Tipo</th>
+                    <th>Modelo</th>
+                    <th>Horas</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela">
+            </tbody>
+        </table>
+
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="js/include.js"></script>
+    <script src="js/maquinas.js"></script>
+</body>
+</html>
